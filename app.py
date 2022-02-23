@@ -118,9 +118,9 @@ app = Flask(__name__)
 #model = pickle.load(open('model', 'rb'))
 
 @app.route("/", methods = ['GET', 'POST'])
-def home():
+def index():
     if flask.request.method == 'GET':   
-        return(flask.render_template("home.html"))
+        return(flask.render_template("index.html"))
     
     if flask.request.method == 'POST':
         m_name = flask.request.form['moviename']
