@@ -2,6 +2,6 @@ pandas
 numpy
 scipy
 sklearn
-matplotlib.pyplot
+matplotlib
 seaborn
 flask
