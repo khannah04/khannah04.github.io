@@ -2,6 +2,11 @@
     @import url('http://fonts.cdnfonts.com/css/franchise');
 </style>
 
+@font-face {
+  font-family: 'Franchise', sans-serif;
+  src: url('http://fonts.cdnfonts.com/css/franchise');
+}
+
 *{
     background-color: #FFE6EA;  
 }
