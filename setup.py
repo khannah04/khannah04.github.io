@@ -15,8 +15,8 @@ import seaborn as sns
 import pickle
 
 #"C:\Users\khans\OneDrive\Desktop\ml-latest-small\ml-latest-small\movies.csv"
-movies = pd.read_csv("./movies.csv")
-ratings = pd.read_csv("./ratings.csv")
+movies = pd.read_csv("./model/movies.csv")
+ratings = pd.read_csv("./model/ratings.csv")
 
 #print out the first few rows of the dataset
 print(movies['title'])
