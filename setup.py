@@ -4,6 +4,8 @@ Created on Thu Feb 17 20:34:34 2022
 
 @author: khans
 """
+pip install wheel
+pip install pandas
 
 import pandas as pd
 import numpy as np
